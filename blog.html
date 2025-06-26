@@ -4,113 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colleague Riley</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-            color: rgb(200, 200, 200)
-        }
-        h1 {
-            margin-bottom: 20px; /* Add space below the header */
-        }
-        .image-container {
-            display: flex;
-            flex-wrap: wrap;
-        }
-        .image-container a {
-            margin: 10px;
-        }
-        .header img {
-            float: left;
-            width: 100px;
-            height: 100px;
-            background: #555;
-          }
-          
-          .header h1 {
-            position: relative;
-            top: 18px;
-            left: 10px;
-          }
-        .links-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-        .link-card {
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 10px;
-            max-width: 200px;
-            text-align: center;
-            text-decoration: none;
-            color: inherit;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        .link-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-        }
-        .link-card img {
-            width: 100%;
-            height: auto;
-            border-radius: 4px;
-        }
-        .link-card h2 {
-            font-size: 1.2em;
-            margin: 10px 0;
-        }
-    </style>
+
+    <link rel="stylesheet" href="style.css">  
 </head>
-<body style="background-color:rgb(15, 25, 45);">
-    <div class="header">
-	<a href="index.html"> <img src="https://avatars.githubusercontent.com/u/50218871" alt="My PFP"> </a>
-    </div>
-	<h2> blogs / articles </h2>
-	<a href="blog.html">blog/articles</a>
-    <a href="portfolio.html">portfolio</a>
-    <a href="fav.html">favorites</a>
-    <a href="aboutme.html">about me</a> 
-	<br> </br>
-	<h2>Contacts:</h2>
-    <ul>
-        <li>Email: <a href="mailto:colleagueRiley@gmail.com">colleagueRiley@gmail.com</a></li>
-        <li>Discord: ColleagueRiley</li>
-        <li>Discord Server: <a href="https://discord.gg/kdtTYkPY6V">https://discord.gg/kdtTYkPY6V</a></li>
-    </ul>
-	  
-	<div class="links-container">
-        <a href="https://medium.com/@colleagueriley/rgfw-under-the-hood-opengl-context-creation-2c3071a922bc" class="link-card">
+<body>
+	<header>
+        <a href="index.html"> <img src="https://avatars.githubusercontent.com/u/50218871" alt="My PFP"> </a>
+        <h2> (Colleauge) Riley Mabb | blogs / articles </h2>
+        <nav>
+            <a href="blog.html">blog/articles</a>
+            <a href="portfolio.html">portfolio</a>
+            <a href="fav.html">favorites</a>
+            <a href="aboutme.html">about me</a>
+        </nav>
+        <br/>
+    </header>
+    
+    <br/>
+	
+    <div class="links-container">
+        <a href="https://medium.com/@colleagueriley/rgfw-under-the-hood-opengl-context-creation-2c3071a922bc">
             <img src="opengl.png" alt="RSGL">
-			<h2> RGFW Under the Hood: OpenGL Context Creation </h2>
+			<p> <strong> RGFW Under the Hood: OpenGL Context Creation </strong> </p>
 		</a>
-		<a href="https://medium.com/@colleagueriley/rgfw-under-the-hood-raw-mouse-input-and-mouse-locking-258f8f78ab96" class="link-card">
+		<a href="https://medium.com/@colleagueriley/rgfw-under-the-hood-raw-mouse-input-and-mouse-locking-258f8f78ab96">
             <img src="lock.jpg" alt="RSGL">
-			<h2> RGFW Under the Hood: Raw Mouse Input and Mouse Locking </h2>
+			<p> <strong>  RGFW Under the Hood: Raw Mouse Input and Mouse Locking </strong> </p>
 		</a>
-		<a href="https://medium.com/@colleagueriley/rgfw-under-the-hood-software-rendering-82f54a6da419" class="link-card">
+		<a href="https://medium.com/@colleagueriley/rgfw-under-the-hood-software-rendering-82f54a6da419">
             <img src="soft.png" alt="RSGL">
-			<h2> RGFW Under the Hood: Software Rendering </h2>
+                <p> <strong> RGFW Under the Hood: Software Rendering </strong> </p>
 		</a>
-		<a href="https://medium.com/@colleagueriley/rgfw-under-the-hood-cocoa-in-pure-c-2e2ab559f657" class="link-card">
+		<a href="https://medium.com/@colleagueriley/rgfw-under-the-hood-cocoa-in-pure-c-2e2ab559f657">
             <img src="cocoa.jpg" alt="RSGL">
-			<h2> RGFW Under the Hood: Cocoa in Pure C </h2>
+			<p> <strong> RGFW Under the Hood: Cocoa in Pure C </strong> </p>
 		</a>
-		<a href="https://medium.com/@colleagueriley/rgfw-under-the-hood-x11-drag-n-drop-320986ada311" class="link-card">
+		<a href="https://medium.com/@colleagueriley/rgfw-under-the-hood-x11-drag-n-drop-320986ada311">
 			<img src="dnd.jpg" alt="RSGL">
-			<h2> RGFW Under the Hood: X11 Drag 'n Drop </h2>
+			<p> <strong> RGFW Under the Hood: X11 Drag 'n Drop </strong> </p>
 		</a>
 
-		<a href="https://medium.com/@colleagueriley/rgfw-under-the-hood-clipboard-copy-paste-b6a81165e3e1" class="link-card">
+		<a href="https://medium.com/@colleagueriley/rgfw-under-the-hood-clipboard-copy-paste-b6a81165e3e1">
             <img src="clip.png" alt="RSGL">
-			<h2> RGFW Under the Hood: Clipboard Copy/Paste </h2>
+			<p> <strong> RGFW Under the Hood: Clipboard Copy/Paste </strong> </p>
 		</a>
-		<a href="https://medium.com/@colleagueriley/rgfw-under-the-hood-mouse-and-window-icons-fb06a3b686ed" class="link-card">
+		<a href="https://medium.com/@colleagueriley/rgfw-under-the-hood-mouse-and-window-icons-fb06a3b686ed">
             <img src="mouse.jpg" alt="RSGL">
-			<h2> RGFW Under the Hood: Mouse and Window Icons </h2>
+			<p> <strong> RGFW Under the Hood: Mouse and Window Icons </strong> </p>
 		</a>
     </div>
-
+ 
+    <footer>
+        <h4>Contacts</h4>
+        <address>
+            <p> Email: <a href="mailto:colleagueRiley@gmail.com">colleagueRiley@gmail.com</a> </p>
+            <p> Discord: ColleagueRiley</p>
+            <p> Discord Server: <a href="https://discord.gg/kdtTYkPY6V">https://discord.gg/kdtTYkPY6V</a> </p>
+        </address>
+    </footer>
 </body>
 </html>
