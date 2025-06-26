@@ -17,19 +17,21 @@ header img {
     width: 100px;
     height: 100px;
     display: inline;
-    background-color: rgb(15, 25, 45);
+
+    margin: -10px 0px;
 }
 
 header h2 {
     position: relative;
-    top: 18px;
+    top: 15px;
     left: 10px;
     display: block;
 }
 
 
 header nav a {
-    margin: 10px;
+    margin: 10px 10px;
+    padding: 10px;
     color: rgb(200, 200, 200);
     display: inline;
     text-decoration: none;
@@ -98,4 +100,8 @@ footer {
     margin: 0px 0px;
     display: block;    
     background: rgb(8, 18, 38);
-} 
+}
+
+footer address a {
+    color: orange;
+}
