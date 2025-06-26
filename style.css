@@ -7,6 +7,8 @@ body {
 
 header {
     background: rgb(8, 18, 38);
+
+    text-align: center;
 }
 
 
@@ -27,14 +29,14 @@ header h2 {
 
 
 header nav a {
-    padding-left: 10px;
+    margin: 10px;
     color: rgb(200, 200, 200);
     display: inline;
     text-decoration: none;
+    text-align: center;
 }
 
 header nav a:hover {
-    padding-left: 10px;
     display: inline;
     text-decoration: none;
     background: rgb(25, 35, 55);
@@ -45,18 +47,17 @@ section a img {
     padding: 10px;
     width: 200px;
     height: 200px;
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 
 section a img:hover { 
-    padding: 0px 10px;
-    width: 200px;
-    height: 200px;
+    transform: translateY(-5px);
 }
 
 .links-container {
     display: flex;
-gap: 20px;
- flex-wrap: wrap;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .links-container a {
@@ -93,6 +94,7 @@ gap: 20px;
 }
 
 footer {
+    text-align: center;
     margin: 0px 0px;
     display: block;    
     background: rgb(8, 18, 38);
