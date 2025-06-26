@@ -17,6 +17,10 @@ header img {
     width: 100px;
     height: 100px;
     display: inline;
+    margin: 0px 0px;
+}
+
+.github_icon {
     margin: -10px 0px;
 }
 
@@ -64,9 +68,13 @@ section a img:hover {
     flex-wrap: wrap;
 }
 
+.links-container img {
+    margin: 10px 0px;
+}
+
 .links-container a {
     max-width: 250px;
-    margin: 0px 10px;
+    margin: 10px 10px;
     text-decoration: none;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -74,6 +82,7 @@ section a img:hover {
     transition: transform 0.2s, box-shadow 0.2s;
     text-align: center;
 }
+
 
 .links-container a:hover { 
     transform: translateY(-5px);
