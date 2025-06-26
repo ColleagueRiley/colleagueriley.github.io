@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: rgb(200, 200, 200);
+    background-color: rgb(15, 25, 45);
+}
+
+header {
+    background: rgb(8, 18, 38);
+}
+
+
+header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    display: inline;
+    background-color: rgb(15, 25, 45);
+}
+
+header h2 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+    display: block;
+}
+
+
+header nav a {
+    padding-left: 10px;
+    color: rgb(200, 200, 200);
+    display: inline;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    padding-left: 10px;
+    display: inline;
+    text-decoration: none;
+    background: rgb(25, 35, 55);
+}
+
+section a img { 
+    border-radius: 25px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+section a img:hover { 
+    padding: 0px 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.links-container {
+    display: flex;
+gap: 20px;
+ flex-wrap: wrap;
+}
+
+.links-container a {
+    max-width: 250px;
+    margin: 0px 10px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-align: center;
+}
+
+.links-container a:hover { 
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.links-container a img {
+    width: 200px;
+    height: 200px;
+    padding: 0px 10px;
+}
+
+.links-container a h2 { 
+    color: rgb(200, 200, 200);
+    font-size: 20px;
+}
+
+.links-container a p { 
+    padding: 0px 0px;
+    color: rgb(200, 200, 200);
+    font-size: 15px;
+}
+
+footer {
+    margin: 0px 0px;
+    display: block;    
+    background: rgb(8, 18, 38);
+} 
