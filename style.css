@@ -106,6 +106,27 @@ section a img:hover {
     font-size: 15px;
 }
 
+.canvas {
+    text-align: center;
+}
+
+#log {
+
+    white-space: pre-wrap;
+    /* To preserve whitespace and line breaks */
+    background-color: #000000;
+    color: #f1f1f1;
+    padding: 10px;
+    border: 1px solid #120808;
+    max-height: 100px;
+    overflow-y: auto;
+    font-family: monospace;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
 footer {
     text-align: center;
     margin: 0px 0px;
